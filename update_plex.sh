@@ -17,7 +17,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin # sets up the 
 
 echo 'Script started at' $(date +"%D at %r")
 
-wget -p ~/plex.deb https://plex.tv/downloads/latest/5?channel=16&build=linux-x86_64&distro=debian
+wget -p ~/plex.deb "https://plex.tv/downloads/latest/5?channel=16&build=linux-x86_64&distro=debian"
 
 dpkg -i ~/plex.deb
 
